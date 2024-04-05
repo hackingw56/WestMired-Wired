@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+*{
+    font-family: 'Lexend Deca',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsla(242, 58%, 73%, 1);
+
+    background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, rgb(221, 238, 231) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, rgb(229, 247, 240) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9491E2", endColorstr="#AFF2D8", GradientType=1 );
+}
+
+.botton{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+
+.hero-section-paragraph{
+    font-size: 20px;
+}
+.light-grey{
+color: rgb(44, 36, 36);
+font-weight: 350;
+}
+@media (max-width: 991.98px) {
+    .hero-section-paragraph{
+        display: none;
+    }
+    .botton{
+        margin-top: 15px;
+    }
+    .image-headphone{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (max-width: 1199.98px) {
+    .main-heading{
+        font-size: 50px;
+        text-align: center;
+        
+        
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .botton{
+        margin-top: 15px;
+        font-weight: 500;
+    }
+    .image-headphone{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/*   2nd section gapping from top    */
+.gapping{
+    margin-top:300px
+}
+.allnew{
+    color: rgb(0, 0, 0);
+}
+.para{
+    color: rgb(44, 36, 36);
+    font-size: 20px;
+    
+}
+
+.hero-image1 {
+    
+ margin-top: 300px;
+}
+.hero-image1 img{
+    border-radius: 0px 69px 0px 0px;
+    -webkit-border-radius: 0px 69px 0px 0px;
+    -moz-border-radius: 0px 69px 0px 0px; 
+   
+}
+
+
+@media (max-width: 1199.98px) {
+    .hero-image1{
+        gap: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .hero-image1{
+        margin-top: 50px;
+        
+    }
+
+
+    .hero-image1 img{
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+    }
+
+}
+
+
+
+
+/*  cards*/
+.card {
+    border-radius: 0px 62px 0px 52px;
+    -webkit-border-radius: 0px 62px 0px 52px;
+    -moz-border-radius: 0px 62px 0px 52px;
+    padding: 5px;
+    height: 350px;
+}
+.card img{
+    border-radius: 0px 62px 0px 52px;
+-webkit-border-radius: 0px 62px 0px 52px;
+-moz-border-radius: 0px 62px 0px 52px;
+object-fit: cover; 
+height: 200px;
+width: 270px;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+ .card img{
+    height: 200px;
+width: 205px;
+ }
+
+
+  
+}
+
+@media (max-width: 767.98px) {
+    .card img{
+        height: 200px;
+    width: 275px; 
+        padding: 2px;
+     }
+     .card{
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+}
+
+
+@media (max-width: 575.98px) {
+    .allnew{
+        text-align: center;}
+        .para{
+            text-align: center;
+        }
+        .responsive-image{
+            text-align: center;
+        }
+    }
+
+
+
+
+@media (max-width: 1399.98px) {
+    .para{
+        text-align: start;
+    }
+   
+}
+.azab{
+    font-size: 1.2rem;
+   line-height: 25px;
+   font-weight: bolder;
+}
+.shop{
+    font-size: 2.6rem;
+    font-weight: bold;
+    background: #601324;
+    background: linear-gradient(to right, #601324 0%, #65CF3C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+
+}
+.botton:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    
+
+}
+.doosra{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.doosra:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+/*  4th hero section coding*/
+
+.faultyphone{
+    font-size: 1.5rem;
+    
+}
+.gpt{
+    background: #601324;
+    background: linear-gradient(to right, #601324 0%, #65CF3C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient{
+    background: #601324;
+    background: linear-gradient(to right, #601324 0%, #65CF3C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+.sambhalo img{
+    border-radius: 0px 80px 0px 0px;
+    -webkit-border-radius: 0px 80px 0px 0px;
+    -moz-border-radius: 0px 80px 0px 0px; object-fit: cover;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .support,.faultyphone,.doosra{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .location,.address{
+        text-align: center;
+    }
+}
+
+.anchor{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+   
+}
+
+@keyframes upanddown {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(30px);
+    }
+    
+}
+.experiment{
+    animation-name: upanddown;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
